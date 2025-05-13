@@ -1,9 +1,20 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Twitter Follower Graph Analysis
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project analyzes Twitter follower data using NetworkX to model the relationships as a directed graph.
 
-## Getting Started
-Optional section to summarize important steps and how to use the project & apps in the project
+## Features
+
+- Load Twitter follower data from a CSV
+- Check if one user is following another
+- Find users who follow at least `n` other users
+- Identify mutual followees between two users
+- Determine the most connected user based on degree centrality
+
+## Setup
+
+1. Clone the repo or download the files.
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
 
